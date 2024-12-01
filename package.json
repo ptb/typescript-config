@@ -1,8 +1,49 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
+  "author": {
+    "email": "peter@ptb.dev",
+    "name": "Peter T Bosse II",
+    "url": "https://ptb.dev/"
+  },
+  "bugs": {
+    "url": "https://github.com/ptb/typescript-config/issues"
+  },
+  "dependencies": {
+    "typescript": "5.7.2"
+  },
+  "description": "Shared TypeScript config",
   "engines": {
     "node": "^20.9 || ^22.11",
     "pnpm": "^9"
   },
-  "type": "module"
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "license": "Apache-2.0",
+  "main": "./tsconfig.json",
+  "maintainers": [
+    {
+      "email": "peter@ptb.dev",
+      "name": "Peter T Bosse II",
+      "url": "https://ptb.dev/"
+    }
+  ],
+  "name": "@ptb/typescript-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptb/typescript-config"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "2024.12.1"
 }
