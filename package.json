@@ -1,1 +1,8 @@
-{}
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "engines": {
+    "node": "^20.9 || ^22.11",
+    "pnpm": "^9"
+  },
+  "type": "module"
+}
